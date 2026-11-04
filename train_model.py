@@ -47,6 +47,6 @@ with open("build_report.txt", "w", encoding="utf-8") as report:
     report.write(f"Accuracy: {accuracy:.4f}\n")
     report.write("Training status: SUCCESSFUL\n")
 
-print("Model training completed successfully.")
+print("Model training completed successfully - Experiment 9.")
 print(f"Test accuracy: {accuracy:.4f}")
 print("Generated model.pkl and build_report.txt")
